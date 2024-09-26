@@ -12,7 +12,7 @@ const app = express();
 
 app.get("/home",(req,res)=>{
     return res.status(200).json({
-        message:"frontend backend",
+        message:"backend",
     })
 });
 
